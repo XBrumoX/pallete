@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.pallete {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px dashed #000;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.color {
+    flex-grow: 1;
+    width: 10px;
+    transition-duration: 200ms;
+}
+
+.color:hover {
+    width: 80px;
+}
+
+.color:nth-child(1) {
+    background-color: #386641;
+}
+
+.color:nth-child(2) {
+    background-color: #6a994e;
+}
+
+.color:nth-child(3) {
+    background-color: #a7c957;
+}
+
+.color:nth-child(4) {
+    background-color: #f2e8cf;
+}
+
+.color:nth-child(5) {
+    background-color: #bc4749;
+}

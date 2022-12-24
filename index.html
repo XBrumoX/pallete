@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="pallete">
+        <div class="color" data-hex="#386641"></div>
+        <div class="color" data-hex="#6a994e"></div>
+        <div class="color" data-hex="#a7c957"></div>
+        <div class="color" data-hex="#f2e8cf"></div>
+        <div class="color" data-hex="#bc4749"></div>
+    </div>
+
+    <script>
+
+        const pallete = document.querySelector('.pallete');
+        pallete.addEventListener('click', (evt) => {
+            alert(evt.target.dataset.hex);
+        });
+
+    </script>
+    
+</body>
+</html>
